@@ -1,0 +1,45 @@
+ RELATORIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
+
+Data: [15/01/2026]
+Empresa: Abstergo Industries 
+Responsavel: [Arthemis Luna Rocha Santos]
+
+## Introdução
+Este relatorio apresenta o processo de implementação de ferramentas na empresa Abstergo Industries, realizado por Arthemis Luna. O objetivo do projeto foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos imediatos.
+
+## Descrição do Projeto
+O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos especi­ficos­ficos. A seguir, serão descritas as etapas do projeto:
+
+Etapa 1: 
+- Amazon AppFlow
+[foco da Ferramenta]
+Sincronizar dados de vendas/estoque entre o sistema da farmácia (ex: TOTVS, Senior) e uma base na AWS para análise
+Coletar dados de fornecedores via e-mail/planilhas e enviar automaticamente para o Amazon S3 ou Redshift.
+Automatizar o backup de receitas digitais em um repositório seguro (S3).
+- [Descrição de caso de uso]
+Reduz erros manuais, melhora a rastreabilidade e cumpre exigências de auditoria (como Anvisa).
+
+Etapa 2: 
+- AWS IAM Identity Center
+- [Foco da ferramenta]
+Gerenciar logins únicos para sistemas da farmácia com diferentes níveis de permissão (farmacêutico, balconista, gerente).
+- [Descrição de caso de uso]
+Ter logins unicos para o melhor gerenciamento da empresa
+
+Etapa 3: 
+- Amazon Aurora Serverless
+- [Foco da ferramenta]
+Banco de dados para aplicações internas que escala automaticamente, ideal para evitar sobrecarga em horários de pico.
+- [Descrição de caso de uso]
+Evitar picos e problemas com infra estrutura com banco do dados locais.
+
+
+
+## Conclusão
+A implementaçãoo de ferramentas na empresa Abstergo tem como esperado integração, logins unicos e diminuição de problemas nos bancos de dados , o que aumentarão¡ a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+
+
+
+Assinatura do Responsavel pelo Projeto:
+
+Arthemis Luna Rocha Santos
